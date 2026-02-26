@@ -29,11 +29,19 @@ public class AgentAI : Agent
 
         Debug.Log("Agent Initialized!");
     }
+    private void OnDisable()
+{
+    if (inputActions != null)
+    {
+        inputActions.Player.Disable();
+    }
+}
 
     public override void OnEpisodeBegin()
     {
         isTraining = true;
         gameObject.SetActive(true);
+        inputActions.Player.Enable();
         transform.localPosition = new Vector3(-7f, 0f, -0.5f);
     }
 
@@ -55,7 +63,7 @@ public class AgentAI : Agent
         continuousActions[0] = direction.x;
         continuousActions[1] = direction.y;
 
-        Debug.Log($"Heuristic Input: {direction}");
+        //Debug.Log($"Heuristic Input: {direction}");
     }
 
     private void OnTriggerEnter2D(Collider2D other)
