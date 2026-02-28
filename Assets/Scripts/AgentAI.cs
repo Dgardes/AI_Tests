@@ -8,6 +8,7 @@ public class AgentAI : Agent
     public float moveSpeed = 5f;
     public Transform target;
     private bool isTraining = true;
+    private float closestDistanceToTarget;
 
     private InputSystem_Actions inputActions;
     private Vector2 direction;
@@ -15,15 +16,14 @@ public class AgentAI : Agent
     private void Awake()
     {
         AITrainer.Instance.agents.Add(this);
+        Debug.Log(target.position);
     }
 
     public override void Initialize()
     {
-        // Инициализируем ввод
         inputActions = new InputSystem_Actions();
         inputActions.Player.Enable();
 
-        // Подписываемся на события здесь, а не в OnEnable
         inputActions.Player.Move.performed += ctx => direction = ctx.ReadValue<Vector2>();
         inputActions.Player.Move.canceled += ctx => direction = Vector2.zero;
 
@@ -40,9 +40,9 @@ public class AgentAI : Agent
     public override void OnEpisodeBegin()
     {
         isTraining = true;
-        gameObject.SetActive(true);
         inputActions.Player.Enable();
         transform.localPosition = new Vector3(-7f, 0f, -0.5f);
+        closestDistanceToTarget = Vector3.Distance(transform.localPosition, target.localPosition);
     }
 
     public override void OnActionReceived(ActionBuffers actions)
@@ -52,8 +52,6 @@ public class AgentAI : Agent
         float moveY = actions.ContinuousActions[1];
 
         transform.localPosition += new Vector3(moveX, moveY, 0) * Time.deltaTime * moveSpeed;
-
-        AddReward(-0.001f);
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)
@@ -65,6 +63,26 @@ public class AgentAI : Agent
 
         //Debug.Log($"Heuristic Input: {direction}");
     }
+    public override void CollectObservations(VectorSensor sensor)
+    {
+        Vector3 toTarget = target.localPosition - transform.localPosition;
+        sensor.AddObservation(toTarget.x);
+        sensor.AddObservation(toTarget.y);
+
+        float DistanceToTarget = toTarget.magnitude;
+        if (DistanceToTarget < closestDistanceToTarget)
+        {
+            AddReward(0.01f);
+            closestDistanceToTarget = DistanceToTarget;
+        }
+        else
+        {
+            AddReward(-0.005f);
+        }
+
+        AddReward(-0.001f);
+    }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -73,12 +91,14 @@ public class AgentAI : Agent
         {
             AddReward(2.0f);
             isTraining = false;
+            EndEpisode();
             gameObject.SetActive(false);
         }
         else if (other.CompareTag("Wall"))
         {
             SetReward(-1.0f);
             isTraining = false;
+            EndEpisode();
             gameObject.SetActive(false);
         }
     }
