@@ -16,7 +16,6 @@ public class AgentAI : Agent
     private void Awake()
     {
         AITrainer.Instance.agents.Add(this);
-        Debug.Log(target.position);
     }
 
     public override void Initialize()
@@ -27,7 +26,6 @@ public class AgentAI : Agent
         inputActions.Player.Move.performed += ctx => direction = ctx.ReadValue<Vector2>();
         inputActions.Player.Move.canceled += ctx => direction = Vector2.zero;
 
-        Debug.Log("Agent Initialized!");
     }
     private void OnDisable()
 {
@@ -47,7 +45,7 @@ public class AgentAI : Agent
 
     public override void OnActionReceived(ActionBuffers actions)
     {
-        if (!isTraining) return;
+        if (!isTraining || !gameObject.activeSelf) return;
         float moveX = actions.ContinuousActions[0];
         float moveY = actions.ContinuousActions[1];
 
@@ -79,7 +77,6 @@ public class AgentAI : Agent
         {
             AddReward(-0.005f);
         }
-
         AddReward(-0.001f);
     }
 

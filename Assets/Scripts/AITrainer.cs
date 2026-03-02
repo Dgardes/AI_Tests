@@ -53,6 +53,11 @@ public class AITrainer : MonoBehaviour
 
         foreach (AgentAI agent in agents)
         {
+            if (agent.gameObject.activeSelf)
+            { 
+                agent.AddReward(-1.0f); 
+                agent.EndEpisode();
+    }
             agent.gameObject.SetActive(true);
         }
     }

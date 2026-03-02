@@ -545,7 +545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -726,13 +726,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -1324,7 +1324,7 @@ Transform:
   m_GameObject: {fileID: 479048661}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.50537, y: -0.15093, z: -0.5}
+  m_LocalPosition: {x: 7.5, y: 0, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1369,11 +1369,11 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 8.003797, y: -0.5265855}
-  - {x: 7.3096237, y: 0.16880883}
-  - {x: 8.02092, y: 0.80444974}
-  - {x: 8.7204, y: 0.1487885}
-  - {x: 8.017849, y: -0.5153816}
+  - {x: 0.00808239, y: -0.65485895}
+  - {x: -0.6860895, y: -0.016475081}
+  - {x: 0.0109529495, y: 0.64767104}
+  - {x: 0.71043396, y: -0.0222428}
+  - {x: 0.007884026, y: -0.65790766}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1392,7 +1392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1573,13 +1573,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -1597,7 +1597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1778,13 +1778,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -1939,7 +1939,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2120,13 +2120,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -2144,7 +2144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2325,13 +2325,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -2694,7 +2694,7 @@ Transform:
   m_GameObject: {fileID: 649802854}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.06632, y: 0.03375, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2734,7 +2734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2915,13 +2915,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -3482,7 +3482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3663,13 +3663,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -3687,7 +3687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3868,13 +3868,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -4030,7 +4030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4211,13 +4211,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -4306,7 +4306,7 @@ Transform:
   m_GameObject: {fileID: 1147076997}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.00537, y: 0.15093, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.3964465, y: 2.701057, z: 2.701057}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4757,7 +4757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4938,13 +4938,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -5074,7 +5074,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5255,13 +5255,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -5279,7 +5279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5460,13 +5460,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -5552,7 +5552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5733,13 +5733,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -5828,7 +5828,7 @@ Transform:
   m_GameObject: {fileID: 1697337318}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.00537, y: 0.15093, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.3102332, y: 2.5343, z: 2.5343}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5985,7 +5985,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6166,13 +6166,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -6593,7 +6593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6774,13 +6774,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -6907,7 +6907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7088,13 +7088,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -7296,7 +7296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7477,13 +7477,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -7501,7 +7501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7682,13 +7682,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -8252,7 +8252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8406,13 +8406,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
@@ -8457,7 +8457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619274884261055010, guid: a8a77d4cb91d2934497fe7b691e748fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8638,13 +8638,13 @@ MonoBehaviour:
   m_DetectableTags:
   - Aim
   - Wall
-  m_RaysPerDirection: 5
-  m_MaxRayDegrees: 60
+  m_RaysPerDirection: 20
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.1
   m_RayLength: 5
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967162
+    m_Bits: 4294966857
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0.21176472, g: 0.28235295, b: 0.92549026, a: 1}
