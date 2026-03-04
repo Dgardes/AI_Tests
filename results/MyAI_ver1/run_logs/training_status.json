@@ -3,5 +3,36 @@
         "stats_format_version": "0.3.0",
         "mlagents_version": "1.1.0",
         "torch_version": "2.10.0+cpu"
+    },
+    "MyAI": {
+        "checkpoints": [
+            {
+                "steps": 499999,
+                "file_path": "results\\MyAI_ver1\\MyAI\\MyAI-499999.onnx",
+                "reward": null,
+                "creation_time": 1772541771.3650942,
+                "auxillary_file_paths": [
+                    "results\\MyAI_ver1\\MyAI\\MyAI-499999.pt"
+                ]
+            },
+            {
+                "steps": 504265,
+                "file_path": "results\\MyAI_ver1\\MyAI\\MyAI-504265.onnx",
+                "reward": 1.6006400028523058,
+                "creation_time": 1772541797.1429217,
+                "auxillary_file_paths": [
+                    "results\\MyAI_ver1\\MyAI\\MyAI-504265.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 504265,
+            "file_path": "results\\MyAI_ver1\\MyAI.onnx",
+            "reward": 1.6006400028523058,
+            "creation_time": 1772541797.1429217,
+            "auxillary_file_paths": [
+                "results\\MyAI_ver1\\MyAI\\MyAI-504265.pt"
+            ]
+        }
     }
 }
